@@ -305,17 +305,17 @@ labeldate.grid(row=0,column=4)
 edate=Entry(frame5,width=8)
 edate.grid(row=0,column=5)
 
-# BUTTON FOR GENERATING BILL
+#BUTTON FOR GENERATING BILL
 generate=Button(window,text="Generate Bill",width=50,height=1,font="courier 14 bold",command=calculate,bg="white",fg="thistle4")
 generate.place(x=30,y=550)
-# RESET BUTTON
+#RESET BUTTON
 reset=Button(window,text="Reset",width=25,height=1,font="courier 14 bold",command=resetButton,bg="white",fg="thistle4")
 reset.place(x=30,y=600)
-# EXIT BUTTON
+#EXIT BUTTON
 exit=Button(window,text="Exit",width=24,height=1,font="courier 14 bold",command=exit,bg="white",fg="thistle4")
 exit.place(x=315,y=600)
 
-# EXITING THE MAIN LOOP
+#EXITING THE MAIN LOOP
 window.mainloop()
 
 
